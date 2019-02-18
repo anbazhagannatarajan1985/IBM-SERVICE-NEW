@@ -27,6 +27,7 @@ public class WorkstationDetails {
 	private String Id;
 	private String vendor;
 	private String antiMalwareAgent;
+	private Boolean encryptionEndpoint;
 	private Boolean hostIpsOnServers;
 	private Boolean hostFirewallOnServers;
 	private Boolean deviceApplicationControl;

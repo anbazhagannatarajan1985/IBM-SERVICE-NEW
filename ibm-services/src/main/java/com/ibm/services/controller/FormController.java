@@ -87,7 +87,7 @@ public class FormController {
 		ByteArrayInputStream generateSecurityReport = PdfManager.GenerateSecurityReport(findByFormId);
 		
 		HttpHeaders header = new HttpHeaders();
-		header.add("Content-Disposition", "attachment; filename=123d.pdf");
+		header.add("Content-Disposition", "attachment; filename="+formId+".pdf");
 		
 		return ResponseEntity.ok().headers(header).contentType(MediaType.APPLICATION_PDF).body(new InputStreamResource(generateSecurityReport));
 		
