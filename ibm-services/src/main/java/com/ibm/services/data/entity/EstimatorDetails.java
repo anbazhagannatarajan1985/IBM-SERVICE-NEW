@@ -26,14 +26,22 @@ public class EstimatorDetails {
 		strategy = "org.hibernate.id.UUIDGenerator"
 	)
 	private String id;
-	private String endPointSecurity;
-	private String serviceWindow;
-	private String serviceScope;
-	private String b5;
-	private String b7;
-	private String b71;
-	private String baseFte;
-	private String totalFte;
-	private String transitionFte;
+	private Integer b5Tnt;
+	private Integer b7Tnt;
+	private Integer b7OnCallTnt;
+	private Integer totalTnt;
+	private Integer b5Ssb;
+	private Integer b7Ssb;
+	private Integer b7OnCallSsb;
+	private Integer totalSsb;
+	private Integer b5Hour;
+	private Integer b7Hour;
+	private Integer b7OnCallHour;
+	private Integer totalHour;
+	private Double b5Cost;
+	private Double b7Cost;
+	private Double b7OnCallCost;
+	private Double totalCost;
+
 	
 }

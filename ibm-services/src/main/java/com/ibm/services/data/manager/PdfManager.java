@@ -165,40 +165,40 @@ public class PdfManager {
 		
 		EstimatorDetails estimatorDetails = formDetails.getEstimatorDetails();
 		
-		PdfPCell row3Cell1 = createCell("B5", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
-		table.addCell(row3Cell1);
-		PdfPCell row3Cell2 =createCell(estimatorDetails.getB5(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row3Cell2);		
-		PdfPCell row3Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row3Cell3);
-		
-		PdfPCell row4Cell1 = createCell("B7", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
-		table.addCell(row4Cell1);
-		PdfPCell row4Cell2 =createCell(estimatorDetails.getB7(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row4Cell2);
-		PdfPCell row4Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row4Cell3);
-		
-		PdfPCell row5Cell1 = createCell("B7", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
-		table.addCell(row5Cell1);
-		PdfPCell row5Cell2 =createCell(estimatorDetails.getB71(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row5Cell2);
-		PdfPCell row5Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row5Cell3);
-		
-		PdfPCell row6Cell1 = createCell("Base FTE", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
-		table.addCell(row6Cell1);
-		PdfPCell row6Cell2 =createCell(estimatorDetails.getBaseFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row6Cell2);
-		PdfPCell row6Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row6Cell3);
-		
-		PdfPCell row7Cell1 = createCell("Total FTE", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
-		table.addCell(row7Cell1);
-		PdfPCell row7Cell2 =createCell(estimatorDetails.getTotalFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row7Cell2);
-		PdfPCell row7Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
-		table.addCell(row7Cell3);
+//		PdfPCell row3Cell1 = createCell("B5", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
+//		table.addCell(row3Cell1);
+//		PdfPCell row3Cell2 =createCell(estimatorDetails.getB5(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row3Cell2);		
+//		PdfPCell row3Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row3Cell3);
+//		
+//		PdfPCell row4Cell1 = createCell("B7", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
+//		table.addCell(row4Cell1);
+//		PdfPCell row4Cell2 =createCell(estimatorDetails.getB7(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row4Cell2);
+//		PdfPCell row4Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row4Cell3);
+//		
+//		PdfPCell row5Cell1 = createCell("B7", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
+//		table.addCell(row5Cell1);
+//		PdfPCell row5Cell2 =createCell(estimatorDetails.getB71(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row5Cell2);
+//		PdfPCell row5Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row5Cell3);
+//		
+//		PdfPCell row6Cell1 = createCell("Base FTE", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
+//		table.addCell(row6Cell1);
+//		PdfPCell row6Cell2 =createCell(estimatorDetails.getBaseFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row6Cell2);
+//		PdfPCell row6Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row6Cell3);
+//		
+//		PdfPCell row7Cell1 = createCell("Total FTE", cellFont, 5, 5, Element.ALIGN_CENTER, keyColumnColor, null);
+//		table.addCell(row7Cell1);
+//		PdfPCell row7Cell2 =createCell(estimatorDetails.getTotalFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row7Cell2);
+//		PdfPCell row7Cell3 =createCell(estimatorDetails.getTransitionFte(), valueCellFont, 5, 5, Element.ALIGN_CENTER, valueColumnColor, null);
+//		table.addCell(row7Cell3);
 		
 		document.add(table);
 	}

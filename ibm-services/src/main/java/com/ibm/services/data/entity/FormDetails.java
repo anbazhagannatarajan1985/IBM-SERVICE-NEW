@@ -44,11 +44,15 @@ public class FormDetails {
 	private String salesId;
 	private String approver;
 	private String custom;
+	
+	private String endPoint;
+	private String serviceWindow;
+	private String serviceScope;
+	private String vendor;
+	private Integer noOfServers;
+	private Integer noOfConsoles;
+	
 	@OneToOne (cascade=CascadeType.ALL)
 	private EstimatorDetails estimatorDetails;
-	@OneToOne (cascade=CascadeType.ALL)
-	private ServerDetails serverDetails;
-	@OneToOne (cascade=CascadeType.ALL)
-	private WorkstationDetails workstationDetails;
-	
+		
 }
